@@ -158,3 +158,6 @@ class PuzzleScene(Scene):
     def run(self):
         # Use scene.run method to run self
         run(self, PORTRAIT, 2)
+
+if __name__ == '__main__':
+    PuzzleScene().run()
